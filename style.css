@@ -79,3 +79,30 @@ section:not(#three) {
     grid-auto-rows: 100px;
     grid-template-columns: 2fr 2fr 2fr 2fr 1fr 2fr;
    }
+
+   /* Super Secret Bonus Question */
+   /* #p-one {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+   } */
+
+   /* Bonus */
+   #one {
+    flex-direction: column-reverse;
+   }
+
+   #two {
+    flex-direction: row-reverse;
+   }
+
+   #purple {
+    align-self: flex-end;
+   }
+
+   #brown {
+    align-self: flex-start;
+   }
+
+   
